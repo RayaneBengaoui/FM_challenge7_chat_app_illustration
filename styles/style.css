@@ -8,4 +8,50 @@
 html {
   font-family: "Rubik", sans-serif;
 }
+
+body {
+  background-color: #f5f3f7;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.description {
+  max-width: 27rem;
+}
+
+.top-left-bg {
+  z-index: -1;
+  position: absolute;
+  min-height: 90vh;
+  min-width: 30vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+  background: linear-gradient(#e942ff, #8838ff);
+  top: 0;
+  left: -3%;
+  border-bottom-right-radius: 100rem;
+  border-bottom-left-radius: 100rem;
+}
+
+.bottom-right-bg {
+  z-index: -1;
+  position: absolute;
+  min-height: 85vh;
+  min-width: 30vw;
+  background: #e942ff;
+  opacity: 5%;
+  bottom: 0;
+  right: -10%;
+  border-top-right-radius: 100rem;
+  border-top-left-radius: 100rem;
+}
 /*# sourceMappingURL=style.css.map */

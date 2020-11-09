@@ -9,3 +9,42 @@
 html {
   font-family: "Rubik", sans-serif;
 }
+
+body {
+  background-color: $lightGrayishViolet;
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  max-width: 27rem;
+}
+
+.top-left-bg {
+  z-index: -1;
+  position: absolute;
+  min-height: 90vh;
+  min-width: 30vw;
+  background: linear-gradient($lightMagenta, $lightViolet);
+  top: 0;
+  left: -3%;
+  border-bottom-right-radius: 100rem;
+  border-bottom-left-radius: 100rem;
+}
+
+.bottom-right-bg {
+  z-index: -1;
+  position: absolute;
+  min-height: 85vh;
+  min-width: 30vw;
+  background: $lightMagenta;
+  opacity: 5%;
+  bottom: 0;
+  right: -10%;
+  border-top-right-radius: 100rem;
+  border-top-left-radius: 100rem;
+}
