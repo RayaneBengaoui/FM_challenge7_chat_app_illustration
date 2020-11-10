@@ -1,22 +1,25 @@
 .phone {
   position: relative;
-  background-color: lightcoral;
+  background-color: white;
   width: 20rem;
+  min-width: 20rem;
   height: 40rem;
   margin-right: 10rem;
   margin-left: 5rem;
   border-radius: 30px;
-  padding: 1rem;
+  padding: 0.8rem;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.1);
 }
 
 .phone .top-white {
   position: absolute;
-  background-color: lightcoral;
+  background: white;
   width: 50%;
   height: 1rem;
   margin: 0rem auto;
   left: 50%;
-  top: 1%;
+  top: 0%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   height: 5%;
@@ -24,9 +27,65 @@
 }
 
 .phone .phone-background {
-  background-color: lightskyblue;
+  background-color: #f5f3f7;
   border-radius: 30px;
   height: 100%;
+  overflow: hidden;
+}
+
+.phone .phone-background .top-section {
+  height: 15%;
+  background: -webkit-gradient(linear, right top, left top, from(#e942ff), to(#8838ff));
+  background: linear-gradient(to left, #e942ff, #8838ff);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 0rem 1rem;
+  padding-top: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+
+.phone .phone-background .top-section .profile-picture {
+  width: 12%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 50%;
+  border: white solid 1.9px;
+  margin-left: 0.3rem;
+}
+
+.phone .phone-background .top-section .contact-info {
+  padding-left: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.phone .phone-background .top-section .contact-info .name {
+  color: #f5f3f7;
+  font-size: 0.9rem;
+}
+
+.phone .phone-background .top-section .contact-info .availability {
+  padding-top: 0.15rem;
+  font-size: 0.7rem;
+  color: #d89eff;
+}
+
+.phone .phone-background .top-section .more-picture {
+  width: 3rem;
+  margin-left: 3rem;
 }
 
 * {
@@ -57,7 +116,8 @@ body {
 }
 
 .description {
-  max-width: 27rem;
+  width: 27rem;
+  min-width: 27rem;
 }
 
 .top-left-bg {

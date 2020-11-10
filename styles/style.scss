@@ -22,7 +22,8 @@ body {
 }
 
 .description {
-  max-width: 27rem;
+  width: 27rem;
+  min-width: 27rem;
 }
 
 .top-left-bg {
