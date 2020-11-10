@@ -88,6 +88,28 @@
   margin-left: 3rem;
 }
 
+.phone .phone-background .middle-section {
+  height: 70%;
+  padding: 0.9rem;
+}
+
+.phone .phone-background .middle-section .pink {
+  background: #f1e0fa;
+}
+
+.phone .phone-background .middle-section .message-container {
+  max-width: 65%;
+  border-radius: 10px;
+  padding: 0.5rem;
+  margin: 0.5rem 0rem;
+}
+
+.phone .phone-background .middle-section .message-container .message {
+  font-size: 0.7rem;
+  line-height: 140%;
+  color: #9241c8;
+}
+
 * {
   margin: 0;
   padding: 0;
