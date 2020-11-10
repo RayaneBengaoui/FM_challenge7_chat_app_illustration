@@ -110,6 +110,22 @@
   color: #9241c8;
 }
 
+.phone .phone-background .middle-section .pictures-container {
+  padding-top: 0.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.phone .phone-background .middle-section .pictures-container img {
+  margin: 0rem 0.2rem;
+  width: 20%;
+  border-radius: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;

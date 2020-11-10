@@ -98,6 +98,18 @@
           color: $moderateViolet;
         }
       }
+
+      .pictures-container {
+        padding-top: 0.6rem;
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+          margin: 0rem 0.2rem;
+          width: 20%;
+          border-radius: 10px;
+        }
+      }
     }
   }
 }
