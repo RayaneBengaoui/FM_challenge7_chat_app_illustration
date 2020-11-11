@@ -160,8 +160,35 @@
     }
 
     .bottom-section {
-      background-color: lightskyblue;
       height: 10%;
+      padding: 0.6rem;
+
+      .message-input {
+        background-color: $white;
+        border-radius: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.3rem;
+
+        .input-text {
+          font-size: 0.7rem;
+          color: $grayishBlue;
+          padding-left: 1.3rem;
+        }
+        .enter-button {
+          background-color: $veryDarkViolet;
+          width: 1.9rem;
+          height: 1.9rem;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            transform: rotate(180deg);
+          }
+        }
+      }
     }
   }
 }

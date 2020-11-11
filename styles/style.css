@@ -195,8 +195,50 @@
 }
 
 .phone .phone-background .bottom-section {
-  background-color: lightskyblue;
   height: 10%;
+  padding: 0.6rem;
+}
+
+.phone .phone-background .bottom-section .message-input {
+  background-color: white;
+  border-radius: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.3rem;
+}
+
+.phone .phone-background .bottom-section .message-input .input-text {
+  font-size: 0.7rem;
+  color: #c6cacd;
+  padding-left: 1.3rem;
+}
+
+.phone .phone-background .bottom-section .message-input .enter-button {
+  background-color: #3e2753;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phone .phone-background .bottom-section .message-input .enter-button img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 * {
