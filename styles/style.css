@@ -93,10 +93,6 @@
   padding: 0.9rem;
 }
 
-.phone .phone-background .middle-section .pink {
-  background: #f1e0fa;
-}
-
 .phone .phone-background .middle-section .message-container {
   max-width: 65%;
   border-radius: 10px;
@@ -108,6 +104,33 @@
   font-size: 0.7rem;
   line-height: 140%;
   color: #9241c8;
+}
+
+.phone .phone-background .middle-section .pink {
+  background: #f1e0fa;
+}
+
+.phone .phone-background .middle-section .right-message {
+  padding-top: 0.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.phone .phone-background .middle-section .white {
+  background: white;
+  margin: 0.3rem 0rem;
+}
+
+.phone .phone-background .middle-section .white .message {
+  color: #6e5d7e;
 }
 
 .phone .phone-background .middle-section .pictures-container {
