@@ -127,6 +127,8 @@
 .phone .phone-background .middle-section .white {
   background: white;
   margin: 0.3rem 0rem;
+  -webkit-box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
 }
 
 .phone .phone-background .middle-section .white .message {
@@ -212,6 +214,8 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0.3rem;
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .phone .phone-background .bottom-section .message-input .input-text {
