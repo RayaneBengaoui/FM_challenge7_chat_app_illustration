@@ -74,7 +74,7 @@
     }
 
     .middle-section {
-      height: 70%;
+      height: 75%;
       padding: 0.9rem;
 
       //MESSAGES CONTAINER
@@ -124,6 +124,44 @@
           border-radius: 10px;
         }
       }
+
+      .price-message {
+        background: linear-gradient(to right, $lightMagenta, $lightViolet);
+        margin: 0.4rem 0rem;
+        width: 80%;
+        border-radius: 12px;
+        padding: 0.6rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        color: $lightGrayishViolet;
+
+        .price-message-left {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .circle {
+            margin-right: 1rem;
+            border-radius: 50%;
+            width: 1rem;
+            height: 1rem;
+            border: solid 1px $lightGrayishViolet;
+            opacity: 50%;
+          }
+
+          p {
+            font-size: 0.7rem;
+          }
+        }
+
+        .price {
+          font-weight: 500;
+        }
+      }
+    }
+
+    .bottom-section {
+      background-color: lightskyblue;
+      height: 10%;
     }
   }
 }
