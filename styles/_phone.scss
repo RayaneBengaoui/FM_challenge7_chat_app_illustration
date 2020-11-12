@@ -194,3 +194,83 @@
     }
   }
 }
+
+@media screen and (max-width: 1100px) {
+  .phone {
+    width: 18rem;
+    min-width: 18rem;
+    height: 35rem;
+    margin-top: 8rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    border-radius: 30px;
+
+    .phone-background {
+      .top-section {
+        .contact-info {
+          .name {
+            font-size: 0.6rem;
+          }
+
+          .availability {
+            font-size: 0.5rem;
+          }
+        }
+      }
+
+      .middle-section {
+        .message-container {
+          margin: 0.5rem 0rem;
+
+          .message {
+            font-size: 0.55rem;
+            line-height: 120%;
+          }
+        }
+
+        .pictures-container {
+          padding-top: 0.6rem;
+          display: flex;
+          justify-content: flex-end;
+
+          img {
+            width: 18%;
+          }
+        }
+
+        .price-message {
+          background: linear-gradient(to right, $lightMagenta, $lightViolet);
+          margin: 0.4rem 0rem;
+          width: 80%;
+          border-radius: 12px;
+          padding: 0.5rem 1rem;
+          display: flex;
+          justify-content: space-between;
+          color: $lightGrayishViolet;
+
+          .price-message-left {
+            p {
+              font-size: 0.55rem;
+            }
+          }
+
+          .price {
+            font-size: 0.8rem;
+          }
+        }
+      }
+
+      .bottom-section {
+        .message-input {
+          .input-text {
+            font-size: 0.65rem;
+          }
+          .enter-button {
+            width: 1.6rem;
+            height: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+}

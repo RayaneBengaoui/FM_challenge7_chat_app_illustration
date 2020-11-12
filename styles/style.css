@@ -245,6 +245,71 @@
           transform: rotate(180deg);
 }
 
+@media screen and (max-width: 1100px) {
+  .phone {
+    width: 18rem;
+    min-width: 18rem;
+    height: 35rem;
+    margin-top: 8rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    border-radius: 30px;
+  }
+  .phone .phone-background .top-section .contact-info .name {
+    font-size: 0.6rem;
+  }
+  .phone .phone-background .top-section .contact-info .availability {
+    font-size: 0.5rem;
+  }
+  .phone .phone-background .middle-section .message-container {
+    margin: 0.5rem 0rem;
+  }
+  .phone .phone-background .middle-section .message-container .message {
+    font-size: 0.55rem;
+    line-height: 120%;
+  }
+  .phone .phone-background .middle-section .pictures-container {
+    padding-top: 0.6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .phone .phone-background .middle-section .pictures-container img {
+    width: 18%;
+  }
+  .phone .phone-background .middle-section .price-message {
+    background: -webkit-gradient(linear, left top, right top, from(#e942ff), to(#8838ff));
+    background: linear-gradient(to right, #e942ff, #8838ff);
+    margin: 0.4rem 0rem;
+    width: 80%;
+    border-radius: 12px;
+    padding: 0.5rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    color: #f5f3f7;
+  }
+  .phone .phone-background .middle-section .price-message .price-message-left p {
+    font-size: 0.55rem;
+  }
+  .phone .phone-background .middle-section .price-message .price {
+    font-size: 0.8rem;
+  }
+  .phone .phone-background .bottom-section .message-input .input-text {
+    font-size: 0.65rem;
+  }
+  .phone .phone-background .bottom-section .message-input .enter-button {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -315,5 +380,68 @@ body {
   right: -10%;
   border-top-right-radius: 100rem;
   border-top-left-radius: 100rem;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    overflow: visible;
+  }
+  .description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    width: 18rem;
+    min-width: 18rem;
+  }
+  .description h1 {
+    color: #3e2753;
+    font-weight: 500;
+    font-size: 2.2rem;
+    padding-bottom: 3rem;
+  }
+  .description h2 {
+    color: #a39daa;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .top-left-bg {
+    min-height: 70vh;
+    min-width: 60vw;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 100rem;
+    border-bottom-left-radius: 0rem;
+  }
+  .bottom-right-bg {
+    min-height: 65vh;
+    min-width: 60vw;
+    bottom: 0;
+    right: 0;
+    border-top-right-radius: 0rem;
+    border-top-left-radius: 100rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .description {
+    margin-left: 15rem;
+    width: 32rem;
+    min-width: 3rem;
+  }
+  .description h1 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+  }
+  .description h2 {
+    color: #a39daa;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 160%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
